@@ -196,7 +196,6 @@ handleKeys bClearScreen zoomRef getEvents keysSet = do
     GLFW.setWindowTitle $
       "Gravity simulation (SPACE: " ++ verb ++ " orbits, keypad +/- : zoom in/out)"
 
-main :: IO ()
 main = do
   planetCount <- getPlanetCount
   True <- GLFW.initialize
