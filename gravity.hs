@@ -1,4 +1,6 @@
--- Transliterated from Python from http://users.softlab.ntua.gr/~ttsiod/gravityRK4.html
+-- Transliterated from Python into Haskell by Eyal Lotem
+-- from http://users.softlab.ntua.gr/~ttsiod/gravityRK4.html
+-- Original author: Thanassis Tsiodras
 {-# LANGUAGE TemplateHaskell, NoMonomorphismRestriction #-}
 
 import Control.Applicative
